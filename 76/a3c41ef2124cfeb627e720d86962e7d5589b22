@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "76a3c41ef2124cfeb627e720d86962e7d5589b22",
+  "prompts": {},
+  "humans": {
+    "h_afe2c336608864": {
+      "author": "victor-3232 <victor.agueropons@gmail.com>"
+    }
+  }
+}
