@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Eliminado meta tags de SEO -->
+  <title>Detall de la pràctica 1 (RA4A) | Víctor Agüero</title>
+  <link rel="icon" type="image/png" href="assets/imagenes/FotoVictor.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Capa de oscurecimiento móvil -->
+  <input type="checkbox" id="menu-toggle" class="checkbox-menu">
+  <div class="capa-oscura"></div>
+
+  <!-- cabecera -->
+  <cabecera class="cabecera">
+    <div class="contenedor-nav">
+      <a href="index.html" class="logo-nombre">VÍCTOR<span>AGÜERO</span></a>
+      
+      <label for="menu-toggle" class="boton-hamburguesa" id="hamburger-boton">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="menu-nav" id="barra-navegacion">
+        <a href="index.html" class="enlace-nav">Inici</a>
+        <a href="cv.html" class="enlace-nav">Currículum</a>
+        <a href="portfoli.html" class="enlace-nav active">Portfoli</a>
+        <a href="contacte.html" class="enlace-nav">Contacte</a>
+        <a href="altres.html" class="enlace-nav">Altres</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- contenido DE LA practica -->
+  <main class="contenedor">
+    <!-- Breadcrumb -->
+    <ul class="ruta-navegacion">
+      <li><a href="index.html">Inici</a></li>
+      <li>&gt;</li>
+      <li><a href="portfoli.html">Portfoli</a></li>
+      <li>&gt;</li>
+      <li>Pràctica 1 (RA4A)</li>
+    </ul>
+
+    <h1 class="titulo-seccion" style="text-align: left; margin-bottom: 2rem;">Pràctica 1: <span>Gestió de Recursos a Windows Server (RA4A)</span></h1>
+
+    <!-- LAYOUT DE LA página DE DETALL -->
+    <div class="layout-detalle" id="detalle-practica-1">
+      
+      <!-- COLUMNA izquierda: documentación de la practica -->
+      <section class="contenido-detalle">
+        <!-- visualización de la practica -->
+        <div class="imagen-detalle">
+          <img src="assets/imagenes/p4a-preview.png" alt="Primera pàgina de la memòria P4A sobre gestió de recursos a Windows Server">
+        </div>
+
+        <h3 class="titulo-bloque-detalle">🎯 Objectius de la Pràctica</h3>
+        <p>
+          L'objectiu principal és administrar recursos de xarxa en un entorn Windows Server, configurant usuaris, grups i comparticions de manera segura i funcional.
+        </p>
+
+        <h3 class="titulo-bloque-detalle">🛠️ Com ho vaig fer pas a pas</h3>
+        <ul class="pasos-detalle">
+          <li>
+            <strong>1. Configuració inicial:</strong> Alta d'usuaris i grups, i comprovació dels paràmetres bàsics de xarxa al servidor.
+          </li>
+          <li>
+            <strong>2. Compartició de recursos:</strong> Creació de carpetes compartides i verificació dels permisos d'accés segons rols.
+          </li>
+          <li>
+            <strong>3. Gestió d'impressió:</strong> Configuració d'impressores dins del domini i validació de connexió des dels equips client.
+          </li>
+          <li>
+            <strong>4. Perfils i quotes:</strong> Aplicació de perfils obligatoris i quotes de disc per controlar ús i espai d'emmagatzematge.
+          </li>
+        </ul>
+
+        <h3 class="titulo-bloque-detalle">🏆 Què he après</h3>
+        <p>
+          Amb aquesta pràctica he consolidat tasques clau d'administració de Windows Server orientades a l'ús real en xarxes locals d'empresa i d'aula.
+        </p>
+      </section>
+
+      <!-- COLUMNA derecha: metadatos del proyecto -->
+      <aside class="columna-info">
+        
+        <!-- tarjeta de metadatos -->
+        <section class="tarjeta" id="ficha-practica-1">
+          <h3 class="titulo-bloque-cv" style="margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">📊 Fitxa tècnica</h3>
+          <ul class="lista-datos">
+            <li>
+              <span class="etiqueta-dato">Data de Lliurament</span>
+              <span class="valor-dato">RA4A (2025-2026)</span>
+            </li>
+            <li>
+              <span class="etiqueta-dato">Categoria</span>
+              <span class="valor-dato">Sistemes Operatius en Xarxa</span>
+            </li>
+            <li>
+              <span class="etiqueta-dato">Tecnologies utilitzades</span>
+              <span class="valor-dato">Windows Server, Active Directory</span>
+            </li>
+            <li>
+              <span class="etiqueta-dato">Centre Educatiu</span>
+              <span class="valor-dato">Bemen 3</span>
+            </li>
+            <li>
+              <span class="etiqueta-dato">Qualificació</span>
+              <span class="valor-dato">Memòria tècnica P4A</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- tarjeta de acciones rapidas / enlaces -->
+        <section class="tarjeta" id="acciones-practica-1" style="display: flex; flex-direction: column; gap: 1rem;">
+          <h3 class="titulo-bloque-cv" style="margin-bottom: 0.5rem; border: none; padding: 0;">🔗 Recursos de la pràctica</h3>
+          <a href="assets/pdfs/P4A_Víctor_Agüero_Pons.pdf" download class="boton boton-principal" style="width: 100%;" id="detail-boton-code">
+            📥 Descarregar PDF P4A
+          </a>
+          <a href="portfoli.html" class="boton boton-secundario" style="width: 100%;" id="detail-boton-demo">
+            ⏪ Tornar al Portfoli
+          </a>
+        </section>
+
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- pie de página -->
+  <pie-pagina class="pie-pagina">
+    <div class="contenedor-pie">
+      <div class="marca-pie">
+        <h3>Víctor Agüero</h3>
+        <p>Portafolis Tècnic Digital creat per a la recuperació del Mòdul Optatiu de Disseny Web. Curs 2025-2026.</p>
+        <div class="social-icons-pie-pagina">
+          <a href="mailto:victor.agueropons@gmail.com" class="boton-red-social" aria-label="Correu electrònic"><span class="icon">📧</span></a>
+          <a href="tel:+34646843959" class="boton-red-social" aria-label="Telèfon"><span class="icon">📱</span></a>
+        </div>
+      </div>
+      
+      <div class="enlaces-pie">
+        <h4>Mapa del Lloc</h4>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li><a href="cv.html">Currículum</a></li>
+          <li><a href="portfoli.html">Portfoli</a></li>
+          <li><a href="contacte.html">Contacte</a></li>
+          <li><a href="altres.html">Altres</a></li>
+        </ul>
+      </div>
+
+      <div class="contacto-pie">
+        <h4>Contacte</h4>
+        <p>📧 victor.agueropons@gmail.com</p>
+        <p>📍 Plaza Isabel de Villena 4, 6-1, 08042 Barcelona</p>
+        <p>🏫 Centre: Bemen 3</p>
+      </div>
+    </div>
+    
+    <div class="barra-inferior">
+      <p>&copy; 2026 Víctor Agüero. Tots els drets reservats. Projecte Intermodular de Disseny Web.</p>
+      <p>Creat exclusivament amb HTML5 i CSS3 natius.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

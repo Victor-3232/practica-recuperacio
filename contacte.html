@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Eliminado meta tags de SEO -->
+  <title>Contacte | Víctor Agüero</title>
+  <link rel="icon" type="image/png" href="assets/imagenes/FotoVictor.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Capa de oscurecimiento móvil -->
+  <input type="checkbox" id="menu-toggle" class="checkbox-menu">
+  <div class="capa-oscura"></div>
+
+  <!-- cabecera -->
+  <cabecera class="cabecera">
+    <div class="contenedor-nav">
+      <a href="index.html" class="logo-nombre">VÍCTOR<span>AGÜERO</span></a>
+      
+      <label for="menu-toggle" class="boton-hamburguesa" id="hamburger-boton">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="menu-nav" id="barra-navegacion">
+        <a href="index.html" class="enlace-nav">Inici</a>
+        <a href="cv.html" class="enlace-nav">Currículum</a>
+        <a href="portfoli.html" class="enlace-nav">Portfoli</a>
+        <a href="contacte.html" class="enlace-nav active">Contacte</a>
+        <a href="altres.html" class="enlace-nav">Altres</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- contenido DE CONTACTO -->
+  <main class="contenedor">
+    <h1 class="titulo-seccion">Posa't en <span>Contacte</span></h1>
+    <p class="subtitulo-seccion">Aquí tens les meves dades de contacte principals segons el currículum, juntament amb un formulari per escriure'm.</p>
+
+    <div class="layout-contacto" id="panel-contacto">
+      
+      <!-- COLUMNA izquierda: Tarjetas de Contacte Directo -->
+      <section class="info-contacto">
+        
+        <!-- tarjeta 1: correo directo -->
+        <article class="tarjeta fila-contacto" id="contact-email">
+          <div class="icono-contacto">📧</div>
+          <div class="datos-contacto">
+            <h4>Correu electrònic</h4>
+            <p>Canal principal per a consultes acadèmiques o de feina:</p>
+            <a href="mailto:victor.agueropons@gmail.com"><strong>victor.agueropons@gmail.com</strong></a>
+          </div>
+        </article>
+
+        <!-- tarjeta 2: telèfon -->
+        <article class="tarjeta fila-contacto" id="contact-github">
+          <div class="icono-contacto">📱</div>
+          <div class="datos-contacto">
+            <h4>Telèfon</h4>
+            <p>Número de contacte que consta al currículum:</p>
+            <a href="tel:+34646843959"><strong>646 843 959</strong></a>
+          </div>
+        </article>
+
+        <!-- tarjeta 3: adreça -->
+        <article class="tarjeta fila-contacto" id="contact-linkedin">
+          <div class="icono-contacto">📍</div>
+          <div class="datos-contacto">
+            <h4>Adreça</h4>
+            <p>Ubicació que consta al currículum:</p>
+            <strong>Plaza Isabel de Villena 4, 6-1, 08042 Barcelona</strong>
+          </div>
+        </article>
+
+        <!-- tarjeta 4: centro educativo -->
+        <article class="tarjeta fila-contacto" id="contact-school">
+          <div class="icono-contacto">🏫</div>
+          <div class="datos-contacto">
+            <h4>Centre Formatiu</h4>
+            <p>Actualment curso el cicle de Sistemes Microinformàtics i Xarxes a:</p>
+            <a href="https://bemen3.cat" target="_blank"><strong>www.bemen3.cat</strong></a>
+          </div>
+        </article>
+
+      </section>
+
+      <!-- COLUMNA derecha: formulario de mensaje en vivo -->
+      <section class="tarjeta" id="contact-form-wrapper">
+        <h3 class="titulo-bloque-cv" style="margin-bottom: 2rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">✉️ Envia'm un missatge</h3>
+        
+        <!-- formulario de envío por correo -->
+        <form action="mailto:victor.agueropons@gmail.com" method="post" enctype="text/plain" id="contact-html-form">
+          
+          <div class="grupo-formulario">
+            <label for="form-name" class="etiqueta-campo">El teu nom complet</label>
+            <input type="text" id="form-name" name="Nom" class="campo-formulario" placeholder="Ex: Maria Vilanova" required autocomplete="name">
+          </div>
+
+          <div class="grupo-formulario">
+            <label for="form-email" class="etiqueta-campo">El teu correu electrònic</label>
+            <input type="email" id="form-email" name="Correu" class="campo-formulario" placeholder="Ex: maria@correu.com" required autocomplete="email">
+          </div>
+
+          <div class="grupo-formulario">
+            <label for="form-subject" class="etiqueta-campo">Assumpte del missatge</label>
+            <input type="text" id="form-subject" name="Assumpte" class="campo-formulario" placeholder="Ex: Consulta sobre formació o feina" required>
+          </div>
+
+          <div class="grupo-formulario">
+            <label for="form-message" class="etiqueta-campo">El teu missatge</label>
+            <textarea id="form-message" name="Missatge" class="campo-formulario" placeholder="Escriu aquí el teu missatge detallat..." required></textarea>
+          </div>
+
+          <button type="submit" class="boton boton-principal" style="width: 100%; border-radius: 10px;" id="form-submit-boton">
+            📨 Enviar missatge
+          </button>
+
+        </form>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- pie de página -->
+  <pie-pagina class="pie-pagina">
+    <div class="contenedor-pie">
+      <div class="marca-pie">
+        <h3>Víctor Agüero</h3>
+        <p>Portafolis Tècnic Digital creat per a la recuperació del Mòdul Optatiu de Disseny Web. Curs 2025-2026.</p>
+        <div class="social-icons-pie-pagina">
+          <a href="mailto:victor.agueropons@gmail.com" class="boton-red-social" aria-label="Correu electrònic"><span class="icon">📧</span></a>
+          <a href="tel:+34646843959" class="boton-red-social" aria-label="Telèfon"><span class="icon">📱</span></a>
+        </div>
+      </div>
+      
+      <div class="enlaces-pie">
+        <h4>Mapa del Lloc</h4>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li><a href="cv.html">Currículum</a></li>
+          <li><a href="portfoli.html">Portfoli</a></li>
+          <li><a href="contacte.html">Contacte</a></li>
+          <li><a href="altres.html">Altres</a></li>
+        </ul>
+      </div>
+
+      <div class="contacto-pie">
+        <h4>Contacte</h4>
+        <p>📧 victor.agueropons@gmail.com</p>
+        <p>📍 Plaza Isabel de Villena 4, 6-1, 08042 Barcelona</p>
+        <p>🏫 Centre: Bemen 3</p>
+      </div>
+    </div>
+    
+    <div class="barra-inferior">
+      <p>&copy; 2026 Víctor Agüero. (SMIX)</p>
+      <p>Exclusivament amb HTML5 i CSS3.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Se han eliminado todos los meta tags de SEO -->
+  <title>Altres Dades del Perfil | Víctor Agüero</title>
+  <link rel="icon" type="image/png" href="assets/imagenes/FotoVictor.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Capa de oscurecimiento móvil -->
+  <input type="checkbox" id="menu-toggle" class="checkbox-menu">
+  <div class="capa-oscura"></div>
+
+  <!-- cabecera -->
+  <cabecera class="cabecera">
+    <div class="contenedor-nav">
+      <a href="index.html" class="logo-nombre">VÍCTOR<span>AGÜERO</span></a>
+      
+      <label for="menu-toggle" class="boton-hamburguesa" id="hamburger-boton">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="menu-nav" id="barra-navegacion">
+        <a href="index.html" class="enlace-nav">Inici</a>
+        <a href="cv.html" class="enlace-nav">Currículum</a>
+        <a href="portfoli.html" class="enlace-nav">Portfoli</a>
+        <a href="contacte.html" class="enlace-nav">Contacte</a>
+        <a href="altres.html" class="enlace-nav active">Altres</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- contenido PRINCIPAL DE LA página ALTRES -->
+  <main class="contenedor">
+    <h1 class="titulo-seccion">Altres <span>dades del perfil</span></h1>
+    <p class="subtitulo-seccion">Informació complementària sobre les meves competències personals, els meus interessos tècnics i els objectius que apareixen reflectits al currículum.</p>
+
+    <!-- controladores DE pestañas CSS (sin JAVASCRIPT) -->
+    <input type="radio" name="altres-tabs" id="pestana-certificados" class="radio-pestana" checked>
+    <input type="radio" name="altres-tabs" id="pestana-aficiones" class="radio-pestana">
+    <input type="radio" name="altres-tabs" id="pestana-objetivos" class="radio-pestana">
+
+    <!-- contenedor DE pestañas -->
+    <div class="contenedor-pestanas" id="pestanas-interactivas">
+      
+      <!-- Menu lateral de pestañas interactivas -->
+      <ul class="lista-pestanas">
+        <li>
+          <label for="pestana-certificados" class="boton-pestana" id="etiqueta-certificados">
+            <span class="icono-pestana">📜</span> Competències
+          </label>
+        </li>
+        <li>
+          <label for="pestana-aficiones" class="boton-pestana" id="etiqueta-aficiones">
+            <span class="icono-pestana">🛠️</span> Interessos Tècnics
+          </label>
+        </li>
+        <li>
+          <label for="pestana-objetivos" class="boton-pestana" id="etiqueta-objetivos">
+            <span class="icono-pestana">🚀</span> Objectius de Futur
+          </label>
+        </li>
+      </ul>
+
+      <!-- Zona de paneles de contenido -->
+      <section class="zona-contenido-pestanas">
+        
+        <!-- BLOQUE 1: competències -->
+        <article class="panel-pestana" id="contenido-certificados">
+          <h3 class="titulo-bloque-detalle" style="margin-bottom: 1.5rem;">📜 Competències personals i tècniques</h3>
+          
+          <div class="lista-certificados">
+            
+            <div class="tarjeta-certificado">
+              <div class="icono-certificado">🤝</div>
+              <div class="info-certificado">
+                <h4>Treball en equip i comunicació</h4>
+                <p>Perfil personal</p>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.3rem;">Em considero una persona sociable, amb habilitats de comunicació i facilitat per relacionar-me i col·laborar amb altres persones.</p>
+              </div>
+            </div>
+
+            <div class="tarjeta-certificado">
+              <div class="icono-certificado">🖥️</div>
+              <div class="info-certificado">
+                <h4>Maquinari, programari i xarxes</h4>
+                <p>Formació professional</p>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.3rem;">La meva formació en SMIX m'ha permès adquirir coneixements bàsics en muntatge d'equips, programari i configuració inicial de xarxes.</p>
+              </div>
+            </div>
+
+            <div class="tarjeta-certificado">
+              <div class="icono-certificado">🌐</div>
+              <div class="info-certificado">
+                <h4>Aprenentatge de disseny web amb HTML</h4>
+                <p>Procés actual</p>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.3rem;">Actualment estic aprenent a maquetar pàgines web i a presentar contingut de manera clara dins d'un entorn acadèmic.</p>
+              </div>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- BLOQUE 2: Hobbies y pasiones -->
+        <article class="panel-pestana" id="contenido-aficiones">
+          <h3 class="titulo-bloque-detalle" style="margin-bottom: 1.5rem;">🛠️ Àrees que m'interessen</h3>
+          
+          <div class="cuadricula-aficiones">
+            
+            <div class="tarjeta-aficion">
+              <span class="icono-aficion">🔧</span>
+              <h4>Muntatge d'equips</h4>
+              <p>M'interessa entendre com es munta i es manté un ordinador, així com aprendre bones pràctiques de revisió i suport tècnic.</p>
+            </div>
+
+            <div class="tarjeta-aficion">
+              <span class="icono-aficion">🌐</span>
+              <h4>Xarxes</h4>
+              <p>També m'interessa la configuració bàsica de xarxes i entendre com es connecten correctament els equips dins d'un entorn local.</p>
+            </div>
+
+            <div class="tarjeta-aficion">
+              <span class="icono-aficion">💻</span>
+              <h4>Maquetació web</h4>
+              <p>Estic aprenent HTML i CSS perquè vull millorar la manera de presentar projectes i continguts tècnics dins del web.</p>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- BLOQUE 3: objetivos de futuro -->
+        <article class="panel-pestana" id="contenido-objetivos">
+          <h3 class="titulo-bloque-detalle" style="margin-bottom: 1.5rem;">🚀 Objectius Acadèmics i de Futur</h3>
+          
+          <div class="tarjeta" style="margin-bottom: 1.5rem;" id="objetivo-1">
+            <h4 style="color: var(--color-cyan); margin-bottom: 0.5rem;">🥇 1. Posar en pràctica els coneixements apresos</h4>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">
+              El meu objectiu professional és aplicar tot el que estic aprenent durant la formació de SMIX en situacions reals de treball relacionades amb sistemes microinformàtics i xarxes.
+            </p>
+          </div>
+
+          <div class="tarjeta" style="margin-bottom: 1.5rem;" id="objetivo-2">
+            <h4 style="color: var(--color-violet); margin-bottom: 0.5rem;">🥈 2. Créixer dins d'un equip de treball</h4>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">
+              M'agradaria formar part d'un equip que em permeti desenvolupar-me personalment i professionalment mentre continuo aprenent i assumint nous reptes.
+            </p>
+          </div>
+        </article>
+
+      </section>
+
+    </div>
+
+    <!-- seccion PREGUNTAS frecuentes (acordion DETALLS/SUMMARY) -->
+    <section class="seccion-preguntas" id="seccion-faq">
+      <h2 class="titulo-seccion">Preguntes <span>freqüents (FAQ)</span></h2>
+      <p class="subtitulo-seccion">Respostes breus sobre aspectes tècnics d'aquest espai web personal.</p>
+
+      <div class="contenedor-preguntas">
+        
+        <details class="pregunta" id="faq-1">
+          <summary class="cabecera-pregunta">Quines tecnologies s'han fet servir per crear aquest web?</summary>
+          <p class="respuesta-pregunta">
+            Aquest web s'ha creat íntegrament amb HTML5 semàntic i CSS3. No s'hi ha fet servir cap framework de disseny ni cap llibreria externa de JavaScript.
+          </p>
+        </details>
+
+        <details class="pregunta" id="faq-2">
+          <summary class="cabecera-pregunta">Com funciona el sistema de pestanyes i menú hamburguesa sense JavaScript?</summary>
+          <p class="respuesta-pregunta">
+            S'ha fet servir la tècnica d'inputs de control en CSS. Mitjançant checkboxes (`input[type="checkbox"]`) i radio buttons (`input[type="radio"]`) ocults, el selector `:checked` permet mostrar o amagar contingut i controlar l'obertura del menú mòbil.
+          </p>
+        </details>
+
+        <details class="pregunta" id="faq-3">
+          <summary class="cabecera-pregunta">On està allotjat el projecte final?</summary>
+          <p class="respuesta-pregunta">
+            Aquest lloc web s'ha preparat com a pràctica acadèmica de presentació personal i de maquetació HTML/CSS. El més important d'aquest projecte és el contingut i l'estructura, no la plataforma d'allotjament.
+          </p>
+        </details>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- pie de página -->
+  <pie-pagina class="pie-pagina">
+    <div class="contenedor-pie">
+      <div class="marca-pie">
+        <h3>Víctor Agüero</h3>
+        <p>Portafolis Tècnic Digital creat per a la recuperació del Mòdul Optatiu de Disseny Web. Curs 2025-2026.</p>
+        <div class="social-icons-pie-pagina">
+          <a href="mailto:victor.agueropons@gmail.com" class="boton-red-social" aria-label="Correu electrònic"><span class="icon">📧</span></a>
+          <a href="tel:+34646843959" class="boton-red-social" aria-label="Telèfon"><span class="icon">📱</span></a>
+        </div>
+      </div>
+      
+      <div class="enlaces-pie">
+        <h4>Mapa del Lloc</h4>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li><a href="cv.html">Currículum</a></li>
+          <li><a href="portfoli.html">Portfoli</a></li>
+          <li><a href="contacte.html">Contacte</a></li>
+          <li><a href="altres.html">Altres</a></li>
+        </ul>
+      </div>
+
+      <div class="contacto-pie">
+        <h4>Contacte</h4>
+        <p>📧 victor.agueropons@gmail.com</p>
+        <p>📍 Plaza Isabel de Villena 4, 6-1, 08042 Barcelona</p>
+        <p>🏫 Centre: Bemen 3</p>
+      </div>
+    </div>
+    
+    <div class="barra-inferior">
+      <p>&copy; 2026 Víctor Agüero. Tots els drets reservats. Projecte Intermodular de Disseny Web.</p>
+      <p>Creat exclusivament amb HTML5 i CSS3 natius.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Eliminado meta tags de SEO -->
+  <title>Portfoli de Projectes | Víctor Agüero</title>
+  <link rel="icon" type="image/png" href="assets/imagenes/FotoVictor.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Capa de oscurecimiento móvil -->
+  <input type="checkbox" id="menu-toggle" class="checkbox-menu">
+  <div class="capa-oscura"></div>
+
+  <!-- cabecera -->
+  <cabecera class="cabecera">
+    <div class="contenedor-nav">
+      <a href="index.html" class="logo-nombre">VÍCTOR<span>AGÜERO</span></a>
+      
+      <label for="menu-toggle" class="boton-hamburguesa" id="hamburger-boton">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="menu-nav" id="barra-navegacion">
+        <a href="index.html" class="enlace-nav">Inici</a>
+        <a href="cv.html" class="enlace-nav">Currículum</a>
+        <a href="portfoli.html" class="enlace-nav active">Portfoli</a>
+        <a href="contacte.html" class="enlace-nav">Contacte</a>
+        <a href="altres.html" class="enlace-nav">Altres</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- contenido PRINCIPAL DEL PORTFOLIOO -->
+  <main class="contenedor">
+    <h1 class="titulo-seccion">El meu <span>Portfoli de projectes</span></h1>
+    <p class="subtitulo-seccion">Aquest portfoli recull dues pràctiques principals, una per cada memòria en PDF del mòdul de sistemes operatius en xarxa.</p>
+
+    <!-- rejilla DE TARGETES DE proyectoS -->
+    <div class="cuadricula-proyectos" id="cuadricula-practicas">
+      
+      <!-- pràctica 1: RA4A Windows Server -->
+      <article class="tarjeta tarjeta-proyecto" id="tarjeta-practica-1">
+        <div class="imagen-proyecto">
+          <img src="assets/imagenes/p4a-preview.png" alt="Vista prèvia de la memòria PDF de la pràctica RA4A sobre Windows Server">
+        </div>
+        <div class="etiquetas-proyecto">
+          <span class="etiqueta">Windows Server</span>
+          <span class="etiqueta etiqueta-cian">Usuaris i Grups</span>
+          <span class="etiqueta etiqueta-verde">RA4A</span>
+        </div>
+        <h3 class="titulo-proyecto">Pràctica 1: Gestió de Recursos a Windows Server (RA4A)</h3>
+        <p class="descripcion-proyecto">
+          Configuració de serveis de xarxa en Windows Server: usuaris, grups, compartició de recursos, impressió i polítiques de perfil i quotes de disc.
+        </p>
+        <a href="practica-1.html" class="enlace-proyecto" id="enlace-practica-1">
+          Veure el detall del projecte <span>➔</span>
+        </a>
+      </article>
+
+      <!-- pràctica 2: RA4B Samba Linux -->
+      <article class="tarjeta tarjeta-proyecto" id="tarjeta-practica-2">
+        <div class="imagen-proyecto">
+          <img src="assets/imagenes/p4b-preview.png" alt="Vista prèvia de la memòria PDF de la pràctica RA4B sobre Samba a Linux">
+        </div>
+        <div class="etiquetas-proyecto">
+          <span class="etiqueta">Linux</span>
+          <span class="etiqueta etiqueta-cian">Samba</span>
+          <span class="etiqueta etiqueta-verde">RA4B</span>
+        </div>
+        <h3 class="titulo-proyecto">Pràctica 2: Servidor Samba a Linux (RA4B)</h3>
+        <p class="descripcion-proyecto">
+          Instal·lació i configuració d'un servidor Samba en Linux, gestió d'usuaris i permisos de carpetes, i comprovació d'accés des de clients.
+        </p>
+        <a href="practica-2.html" class="enlace-proyecto" id="enlace-practica-2">
+          Veure el detall del projecte <span>➔</span>
+        </a>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- pie de página -->
+  <pie-pagina class="pie-pagina">
+    <div class="contenedor-pie">
+      <div class="marca-pie">
+        <h3>Víctor Agüero</h3>
+        <p>Portafolis Tècnic Digital creat per a la recuperació del Mòdul Optatiu de Disseny Web. Curs 2025-2026.</p>
+        <div class="social-icons-pie-pagina">
+          <a href="mailto:victor.agueropons@gmail.com" class="boton-red-social" aria-label="Correu electrònic"><span class="icon">📧</span></a>
+          <a href="tel:+34646843959" class="boton-red-social" aria-label="Telèfon"><span class="icon">📱</span></a>
+        </div>
+      </div>
+      
+      <div class="enlaces-pie">
+        <h4>Mapa del Lloc</h4>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li><a href="cv.html">Currículum</a></li>
+          <li><a href="portfoli.html">Portfoli</a></li>
+          <li><a href="contacte.html">Contacte</a></li>
+          <li><a href="altres.html">Altres</a></li>
+        </ul>
+      </div>
+
+      <div class="contacto-pie">
+        <h4>Contacte</h4>
+        <p>📧 victor.agueropons@gmail.com</p>
+        <p>📍 Plaza Isabel de Villena 4, 6-1, 08042 Barcelona</p>
+        <p>🏫 Centre: Bemen 3</p>
+      </div>
+    </div>
+    
+    <div class="barra-inferior">
+      <p>&copy; 2026 Víctor Agüero. Tots els drets reservats. Projecte Intermodular de Disseny Web.</p>
+      <p>Creat exclusivament amb HTML5 i CSS3 natius.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

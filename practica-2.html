@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Eliminado meta tags de SEO -->
+  <title>Detall de la pràctica 2 (RA4B) | Víctor Agüero</title>
+  <link rel="icon" type="image/png" href="assets/imagenes/FotoVictor.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Capa de oscurecimiento móvil -->
+  <input type="checkbox" id="menu-toggle" class="checkbox-menu">
+  <div class="capa-oscura"></div>
+
+  <!-- cabecera -->
+  <cabecera class="cabecera">
+    <div class="contenedor-nav">
+      <a href="index.html" class="logo-nombre">VÍCTOR<span>AGÜERO</span></a>
+      
+      <label for="menu-toggle" class="boton-hamburguesa" id="hamburger-boton">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="menu-nav" id="barra-navegacion">
+        <a href="index.html" class="enlace-nav">Inici</a>
+        <a href="cv.html" class="enlace-nav">Currículum</a>
+        <a href="portfoli.html" class="enlace-nav active">Portfoli</a>
+        <a href="contacte.html" class="enlace-nav">Contacte</a>
+        <a href="altres.html" class="enlace-nav">Altres</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- contenido DE LA practica -->
+  <main class="contenedor">
+    <!-- Breadcrumb -->
+    <ul class="ruta-navegacion">
+      <li><a href="index.html">Inici</a></li>
+      <li>&gt;</li>
+      <li><a href="portfoli.html">Portfoli</a></li>
+      <li>&gt;</li>
+      <li>Pràctica 2 (RA4B)</li>
+    </ul>
+
+    <h1 class="titulo-seccion" style="text-align: left; margin-bottom: 2rem;">Pràctica 2: <span>Servidor Samba a Linux (RA4B)</span></h1>
+
+    <!-- LAYOUT DE LA página DE DETALL -->
+    <div class="layout-detalle" id="detalle-practica-2">
+      
+      <!-- COLUMNA izquierda: documentación de la practica -->
+      <section class="contenido-detalle">
+        <!-- visualización de la practica -->
+        <div class="imagen-detalle">
+          <img src="assets/imagenes/p4b-preview.png" alt="Primera pàgina de la memòria P4B sobre servidor Samba a Linux">
+        </div>
+
+        <h3 class="titulo-bloque-detalle">🎯 Objectius de la Pràctica</h3>
+        <p>
+          L'objectiu és desplegar i configurar un servidor Samba en Linux per compartir recursos en xarxa, gestionant usuaris, grups i permisos de manera correcta.
+        </p>
+
+        <h3 class="titulo-bloque-detalle">🛠️ Com ho vaig fer pas a pas</h3>
+        <ul class="pasos-detalle">
+          <li>
+            <strong>1. Instal·lació de Samba:</strong> Preparació del servidor i configuració base del fitxer `/etc/samba/smb.conf`.
+          </li>
+          <li>
+            <strong>2. Usuaris i grups:</strong> Creació de comptes locals i comptes Samba per controlar l'accés als recursos compartits.
+          </li>
+          <li>
+            <strong>3. Permisos de carpetes:</strong> Assignació de permisos amb `chmod` i `chown` segons els requisits de cada carpeta.
+          </li>
+          <li>
+            <strong>4. Verificació de clients:</strong> Proves d'accés des de client Windows per validar el funcionament del servidor Samba.
+          </li>
+        </ul>
+
+        <h3 class="titulo-bloque-detalle">🏆 Què he après</h3>
+        <p>
+          Amb aquesta pràctica he reforçat competències d'administració Linux en xarxa i la gestió pràctica de recursos compartits entre sistemes diferents.
+        </p>
+      </section>
+
+      <!-- COLUMNA derecha: metadatos del proyecto -->
+      <aside class="columna-info">
+        
+        <!-- tarjeta de metadatos -->
+        <section class="tarjeta" id="ficha-practica-2">
+          <h3 class="titulo-bloque-cv" style="margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">📊 Fitxa tècnica</h3>
+          <ul class="lista-datos">
+            <li>
+              <span class="etiqueta-dato">Data de Lliurament</span>
+              <span class="valor-dato">RA4B (2025-2026)</span>
+            </li>
+            <li>
+              <span class="etiqueta-dato">Categoria</span>
+              <span class="valor-dato">Sistemes Operatius en Xarxa</span>
+            </li>
+            <li>
+              <span class="etiqueta-dato">Tecnologies utilitzades</span>
+              <span class="valor-dato">Linux, Samba, permisos de fitxers</span>
+            </li>
+            <li>
+              <span class="etiqueta-dato">Centre Educatiu</span>
+              <span class="valor-dato">Bemen 3</span>
+            </li>
+            <li>
+              <span class="etiqueta-dato">Qualificació</span>
+              <span class="valor-dato">Memòria tècnica P4B</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- tarjeta de acciones rapidas / enlaces -->
+        <section class="tarjeta" id="acciones-practica-2" style="display: flex; flex-direction: column; gap: 1rem;">
+          <h3 class="titulo-bloque-cv" style="margin-bottom: 0.5rem; border: none; padding: 0;">🔗 Recursos de la pràctica</h3>
+          <a href="assets/pdfs/P4B_Víctor_Agüero_Pons.pdf" download class="boton boton-principal" style="width: 100%;" id="detail-boton-code-2">
+            📥 Descarregar PDF P4B
+          </a>
+          <a href="portfoli.html" class="boton boton-secundario" style="width: 100%;" id="detail-boton-back-2">
+            ⏪ Tornar al Portfoli
+          </a>
+        </section>
+
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- pie de página -->
+  <pie-pagina class="pie-pagina">
+    <div class="contenedor-pie">
+      <div class="marca-pie">
+        <h3>Víctor Agüero</h3>
+        <p>Portafolis Tècnic Digital creat per a la recuperació del Mòdul Optatiu de Disseny Web. Curs 2025-2026.</p>
+        <div class="social-icons-pie-pagina">
+          <a href="mailto:victor.agueropons@gmail.com" class="boton-red-social" aria-label="Correu electrònic"><span class="icon">📧</span></a>
+          <a href="tel:+34646843959" class="boton-red-social" aria-label="Telèfon"><span class="icon">📱</span></a>
+        </div>
+      </div>
+      
+      <div class="enlaces-pie">
+        <h4>Mapa del Lloc</h4>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li><a href="cv.html">Currículum</a></li>
+          <li><a href="portfoli.html">Portfoli</a></li>
+          <li><a href="contacte.html">Contacte</a></li>
+          <li><a href="altres.html">Altres</a></li>
+        </ul>
+      </div>
+
+      <div class="contacto-pie">
+        <h4>Contacte</h4>
+        <p>📧 victor.agueropons@gmail.com</p>
+        <p>📍 Plaza Isabel de Villena 4, 6-1, 08042 Barcelona</p>
+        <p>🏫 Centre: Bemen 3</p>
+      </div>
+    </div>
+    
+    <div class="barra-inferior">
+      <p>&copy; 2026 Víctor Agüero. Tots els drets reservats. Projecte Intermodular de Disseny Web.</p>
+      <p>Creat exclusivament amb HTML5 i CSS3 natius.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

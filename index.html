@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Eliminado meta tags de SEO -->
+  <title>Inici | Víctor Agüero - Portafolis Tècnic</title>
+  <link rel="icon" type="image/png" href="assets/imagenes/FotoVictor.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Capa de oscurecimiento per a dispositius móvils (menu hamburguesa) -->
+  <input type="checkbox" id="menu-toggle" class="checkbox-menu">
+  <div class="capa-oscura"></div>
+
+  <!-- cabecera & navegación -->
+  <cabecera class="cabecera">
+    <div class="contenedor-nav">
+      <a href="index.html" class="logo-nombre">VÍCTOR<span>AGÜERO</span></a>
+      
+      <label for="menu-toggle" class="boton-hamburguesa" id="hamburger-boton">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="menu-nav" id="barra-navegacion">
+        <a href="index.html" class="enlace-nav active">Inici</a>
+        <a href="cv.html" class="enlace-nav">Currículum</a>
+        <a href="portfoli.html" class="enlace-nav">Portfoli</a>
+        <a href="contacte.html" class="enlace-nav">Contacte</a>
+        <a href="altres.html" class="enlace-nav">Altres</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- seccion hero principal -->
+  <main>
+    <section class="contenedor seccion-inicio" id="hero-section">
+      <div class="texto-inicio">
+        <span class="saludo">Hola!</span>
+        <h1 class="titulo-principal">Víctor Agüero</h1>
+        <p class="descripcion-inicio">
+          Sóc estudiant de Sistemes Microinformàtics i Xarxes (SMIX) al centre <strong>Bemen 3</strong>. Em defineixo com una persona responsable, sociable i amb moltes ganes d'aprendre sobre maquinari, programari, xarxes i maquetació web amb HTML.
+        </p>
+        <div class="botones-inicio">
+          <a href="portfoli.html" class="boton boton-principal" id="cta-view-portfolio">Veure projectes</a>
+          <a href="cv.html" class="boton boton-secundario" id="cta-view-cv">Currículum</a>
+        </div>
+      </div>
+
+      <div class="contenedor-foto">
+        <div class="marco-foto">
+          <img src="assets/imagenes/FotoVictor.png" alt="Foto de Víctor Agüero" id="profile-picture">
+        </div>
+      </div>
+    </section>
+
+    <!-- seccion DE focos y áreas de interés -->
+    <section class="contenedor" id="features-section">
+      <h2 class="titulo-seccion">Interessos dins de la <span>Informàtica</span></h2>
+      <p class="subtitulo-seccion">Aquestes són algunes de les àrees que treballo durant el cicle formatiu i que també apareixen al meu currículum.</p>
+      
+      <div class="cuadricula-habilidades">
+        <!-- area 1: diseño Web -->
+        <article class="tarjeta" id="focus-web-design">
+          <div class="icono-habilidad">🌐</div>
+          <h3 class="titulo-habilidad">HTML i Maquetació Web</h3>
+          <p class="texto-habilidad">
+            Estic aprenent a crear pàgines web amb HTML i CSS, cuidant l'estructura del contingut i l'adaptació a diferents dispositius.
+          </p>
+        </article>
+
+        <!-- area 2: Sistemas Operativos -->
+        <article class="tarjeta" id="focus-databases">
+          <div class="icono-habilidad">🖥️</div>
+          <h3 class="titulo-habilidad">Programari i Sistemes Operatius</h3>
+          <p class="texto-habilidad">
+            Tinc interès per la instal·lació, configuració i manteniment de sistemes operatius i eines de programari en entorns quotidians.
+          </p>
+        </article>
+
+        <!-- area 3: montaje y redes -->
+        <article class="tarjeta" id="focus-systems">
+          <div class="icono-habilidad">🔧</div>
+          <h3 class="titulo-habilidad">Maquinari i Xarxes</h3>
+          <p class="texto-habilidad">
+            M'agrada el muntatge d'equips, el manteniment bàsic d'ordinadors i la configuració inicial de xarxes locals.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE página -->
+  <pie-pagina class="pie-pagina">
+    <div class="contenedor-pie">
+      <div class="marca-pie">
+        <h3>VÍCTOR AGÜERO</h3>
+        <p>Espai web acadèmic basat en el meu currículum i en les pràctiques del cicle SMIX.</p>
+        <div class="social-icons-pie-pagina">
+          <a href="mailto:victor.agueropons@gmail.com" class="boton-red-social" aria-label="Correu electrònic"><span class="icon">📧</span></a>
+          <a href="tel:+34646843959" class="boton-red-social" aria-label="Telèfon"><span class="icon">📱</span></a>
+        </div>
+      </div>
+      
+      <div class="enlaces-pie">
+        <h4>Mapa del Lloc</h4>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li><a href="cv.html">Currículum</a></li>
+          <li><a href="portfoli.html">Portfoli</a></li>
+          <li><a href="contacte.html">Contacte</a></li>
+          <li><a href="altres.html">Altres</a></li>
+        </ul>
+      </div>
+
+      <div class="contacto-pie">
+        <h4>Contacte</h4>
+        <p>📧 victor.agueropons@gmail.com</p>
+        <p>📍 Plaza Isabel de Villena 4, 6-1, 08042 Barcelona</p>
+        <p>🏫 Centre: Bemen 3</p>
+      </div>
+    </div>
+    
+    <div class="barra-inferior">
+      <p>&copy; 2026 Víctor Agüero Pons.</p>
+      <p>Exclusivament amb HTML5 i CSS3 natius.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

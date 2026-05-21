@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Eliminado meta tags de SEO -->
+  <title>Currículum | Víctor Agüero</title>
+  <link rel="icon" type="image/png" href="assets/imagenes/FotoVictor.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Capa oscura para movil -->
+  <input type="checkbox" id="menu-toggle" class="checkbox-menu">
+  <div class="capa-oscura"></div>
+
+  <!-- cabecera -->
+  <cabecera class="cabecera">
+    <div class="contenedor-nav">
+      <a href="index.html" class="logo-nombre">VÍCTOR<span>AGÜERO</span></a>
+      
+      <label for="menu-toggle" class="boton-hamburguesa" id="hamburger-boton">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="menu-nav" id="barra-navegacion">
+        <a href="index.html" class="enlace-nav">Inici</a>
+        <a href="cv.html" class="enlace-nav active">Currículum</a>
+        <a href="portfoli.html" class="enlace-nav">Portfoli</a>
+        <a href="contacte.html" class="enlace-nav">Contacte</a>
+        <a href="altres.html" class="enlace-nav">Altres</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- seccion curriculum -->
+  <main class="contenedor">
+    <h1 class="titulo-seccion">El meu <span>Currículum Vitae</span></h1>
+    <p class="subtitulo-seccion">Resum de la meva formació, experiència i competències segons el contingut del meu currículum en PDF.</p>
+
+    <!-- Botones para descargar PDF -->
+    <div class="cv-cabecera-actions" id="cv-downloads">
+      <a href="assets/pdfs/cv-standard.pdf" download class="boton boton-principal" id="boton-download-standard">
+        <span>📥</span> Descarregar CV Estàndard (PDF)
+      </a>
+    </div>
+
+    <!-- CV en dos columnas -->
+    <div class="layout-cv" id="cv-interactive-layout">
+      
+      <!-- Columna izquierda: datos y habilidades -->
+      <aside class="columna-lateral-cv">
+        
+        <!-- Tarjeta de datos de contacto -->
+        <section class="tarjeta" id="cv-personal-details">
+          <h3 class="titulo-bloque-cv">📌 Dades de Contacte</h3>
+          <ul class="lista-contacto-cv">
+            <li>
+              <span class="icono-contacto-cv">📧</span>
+              <div>
+                <strong>Correu:</strong><br>
+                <a href="mailto:victor.agueropons@gmail.com">victor.agueropons@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="icono-contacto-cv">📱</span>
+              <div>
+                <strong>Telèfon:</strong><br>
+                <span>+34 646 843 959</span>
+              </div>
+            </li>
+            <li>
+              <span class="icono-contacto-cv">📍</span>
+              <div>
+                <strong>Ubicació:</strong><br>
+                <span>Plaza Isabel de Villena 4, 6-1, 08042 Barcelona</span>
+              </div>
+            </li>
+            <li>
+              <span class="icono-contacto-cv">🪪</span>
+              <div>
+                <strong>Data de naixement:</strong><br>
+                <span>13/03/2008</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Tarjeta de habilidades tecnicas -->
+        <section class="tarjeta" id="cv-technical-skills">
+          <h3 class="titulo-bloque-cv">🛠️ Habilitats Tècniques</h3>
+          
+          <div class="habilidad">
+            <div class="info-habilidad">
+              <span>Maquinari i muntatge d'equips</span>
+              <span>Intermedi</span>
+            </div>
+            <progress class="barra-simple" value="70" max="100"></progress>
+          </div>
+
+          <div class="habilidad">
+            <div class="info-habilidad">
+              <span>Programari i sistemes operatius</span>
+              <span>Intermedi</span>
+            </div>
+            <progress class="barra-simple" value="65" max="100"></progress>
+          </div>
+
+          <div class="habilidad">
+            <div class="info-habilidad">
+              <span>Xarxes</span>
+              <span>Inicial</span>
+            </div>
+            <progress class="barra-simple" value="55" max="100"></progress>
+          </div>
+
+          <div class="habilidad">
+            <div class="info-habilidad">
+              <span>HTML i maquetació web</span>
+              <span>Inicial</span>
+            </div>
+            <progress class="barra-simple" value="45" max="100"></progress>
+          </div>
+        </section>
+
+        <!-- Idiomas -->
+        <section class="tarjeta" id="cv-languages">
+          <h3 class="titulo-bloque-cv">🗣️ Idiomes</h3>
+          
+          <div class="habilidad">
+            <div class="info-habilidad">
+              <span>Català (llengua materna, C1)</span>
+              <span>C1</span>
+            </div>
+            <progress class="barra-simple barra-idioma" value="100" max="100"></progress>
+          </div>
+
+          <div class="habilidad">
+            <div class="info-habilidad">
+              <span>Castellà (llengua materna)</span>
+              <span>100%</span>
+            </div>
+            <progress class="barra-simple barra-idioma" value="100" max="100"></progress>
+          </div>
+
+          <div class="habilidad">
+            <div class="info-habilidad">
+              <span>Anglès (nivell A2)</span>
+              <span>A2</span>
+            </div>
+            <progress class="barra-simple barra-idioma" value="55" max="100"></progress>
+          </div>
+
+          <div class="habilidad">
+            <div class="info-habilidad">
+              <span>Francès (nivell A2)</span>
+              <span>A2</span>
+            </div>
+            <progress class="barra-simple barra-idioma" value="55" max="100"></progress>
+          </div>
+        </section>
+
+      </aside>
+
+      <!-- Columna derecha: formacion y experiencia -->
+      <section class="tarjeta" id="cv-linea-tiempo-wrapper">
+        <h3 class="titulo-bloque-cv">⏳ Formació, experiència i objectiu</h3>
+        
+        <div class="linea-tiempo">
+          <!-- Bloque 1: estudis actuals -->
+          <div class="entrada-tiempo">
+            <div class="punto-tiempo"></div>
+            <div class="fecha-tiempo">2024 - en curs</div>
+            <h4 class="titulo-tiempo">Cicle Formatiu Grau Mitjà (SMIX)</h4>
+            <div class="subtitulo-tiempo">Bemen 3 - Barcelona</div>
+            <p class="descripcion-tiempo">
+              Formació Professional de Sistemes Microinformàtics i Xarxes. Hi treballo continguts relacionats amb maquinari, programari, xarxes i disseny web amb HTML.
+            </p>
+          </div>
+
+          <!-- Bloque 2: estudis anteriors -->
+          <div class="entrada-tiempo">
+            <div class="punto-tiempo"></div>
+            <div class="fecha-tiempo">2020 - 2024</div>
+            <h4 class="titulo-tiempo">Educació Secundària Obligatòria (ESO)</h4>
+            <div class="subtitulo-tiempo">Jesus Maria Claudina Thevenet - Barcelona</div>
+            <p class="descripcion-tiempo">
+              Etapa d'educació secundària completada abans d'iniciar la meva formació professional dins l'àmbit tecnològic.
+            </p>
+          </div>
+
+          <!-- Bloque 3: experiència professional -->
+          <div class="entrada-tiempo">
+            <div class="punto-tiempo"></div>
+            <div class="fecha-tiempo">2026</div>
+            <h4 class="titulo-tiempo">Ajudant de Sistemes Microinformàtics i Xarxes</h4>
+            <div class="subtitulo-tiempo">Diva Reparaciones</div>
+            <p class="descripcion-tiempo">
+              Primera experiència professional vinculada al suport tècnic, amb tasques relacionades amb sistemes microinformàtics i xarxes.
+            </p>
+          </div>
+
+          <!-- Bloque 4: objectiu professional -->
+          <div class="entrada-tiempo">
+            <div class="punto-tiempo"></div>
+            <div class="fecha-tiempo">Actualitat</div>
+            <h4 class="titulo-tiempo">Objectiu professional</h4>
+            <div class="subtitulo-tiempo">Desenvolupament personal i professional</div>
+            <p class="descripcion-tiempo">
+              El meu objectiu és posar en pràctica els coneixements apresos durant la formació professional i formar part d'un equip de treball que em permeti continuar aprenent.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- Pie de pajina -->
+  <pie-pagina class="pie-pagina">
+    <div class="contenedor-pie">
+      <div class="marca-pie">
+        <h3>VÍCTOR AGÜERO</h3>
+        <p>Portafolis Tècnic Digital creat per a la recuperació del Mòdul Optatiu de Disseny Web. Curs 2025-2026.</p>
+        <div class="social-icons-pie-pagina">
+          <a href="mailto:victor.agueropons@gmail.com" class="boton-red-social" aria-label="Correu electrònic"><span class="icon">📧</span></a>
+          <a href="tel:+34646843959" class="boton-red-social" aria-label="Telèfon"><span class="icon">📱</span></a>
+        </div>
+      </div>
+      
+      <div class="enlaces-pie">
+        <h4>Mapa del Lloc</h4>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li><a href="cv.html">Currículum</a></li>
+          <li><a href="portfoli.html">Portfoli</a></li>
+          <li><a href="contacte.html">Contacte</a></li>
+          <li><a href="altres.html">Altres</a></li>
+        </ul>
+      </div>
+
+      <div class="contacto-pie">
+        <h4>Contacte</h4>
+        <p>📧 victor.agueropons@gmail.com</p>
+        <p>📍 Plaza Isabel de Villena 4, 6-1, 08042 Barcelona</p>
+        <p>🏫 Centre: Bemen 3</p>
+      </div>
+    </div>
+    
+    <div class="barra-inferior">
+      <p>&copy; 2026 Víctor Agüero. Tots els drets reservats. Projecte Intermodular de Disseny Web.</p>
+      <p>Creat exclusivament amb HTML5 i CSS3 natius.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
