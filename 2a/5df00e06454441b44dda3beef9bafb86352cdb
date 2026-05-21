@@ -1,0 +1,40 @@
+contacte.html
+  s_f584c16ed5e09c::t_0563aa05862080 95
+  s_f584c16ed5e09c::t_0f658b89b72d9a 18,123
+index.html
+  h_afe2c336608864 50
+  s_f584c16ed5e09c::t_610b624ef0893f 18,98
+portfoli.html
+  s_f584c16ed5e09c::t_3f7cffb0148112 18,88
+practica-2.html
+  s_f584c16ed5e09c::t_7da1a802b41616 18,135
+cv.html
+  s_f584c16ed5e09c::t_122c54b1a27b8d 18,222
+practica-1.html
+  s_f584c16ed5e09c::t_db78ee7285b7b1 18,135
+altres.html
+  s_f584c16ed5e09c::t_a486858e0796d6 18,193
+css/styles.css
+  s_f584c16ed5e09c::t_21967e40be1d8b 1328,1332,1336,1341
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "2a5df00e06454441b44dda3beef9bafb86352cdb",
+  "prompts": {},
+  "humans": {
+    "h_afe2c336608864": {
+      "author": "victor-3232 <victor.agueropons@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_f584c16ed5e09c": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "0ab5b73f-510d-4821-aacf-9a0fca6a1952",
+        "model": "gpt-4.1"
+      },
+      "human_author": "victor-3232 <victor.agueropons@gmail.com>"
+    }
+  }
+}
